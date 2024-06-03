@@ -12,7 +12,10 @@ achieving an 89% predictive accuracy.
 
 A total of 100 English works by 10 authors were downloaded from
 [Gutenberg](https://www.gutenberg.org/) using the `gutenbergr` package,
-as detailed in [1-gutenberg\_download.R](1-gutenberg_download.R).
+as detailed in [1-gutenberg\_download.R](1-gutenberg_download.R). 10
+authors are: Jane Austen, Agatha Christie, Charles Dickens, Daniel
+Defoe, Arthur Conan Doyle, George Eliot, Jack London, William
+Shakespeare, Mark Twain, and Oscar Wilde.
 
 ## Data preprocessing
 
@@ -440,7 +443,7 @@ authors.
 <td style="text-align: right;">0.7895</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Random forest</td>
+<td style="text-align: left;">Random Forest</td>
 <td style="text-align: right;">0.8947</td>
 </tr>
 <tr class="even">

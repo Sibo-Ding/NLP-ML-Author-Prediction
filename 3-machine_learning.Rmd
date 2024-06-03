@@ -27,7 +27,7 @@ library(tidytext)  # Sentiment analysis
 Identifying the author of a text poses a challenge for humans, yet algorithms offer a promising solution by discerning patterns in writing styles. This study uses natural language processing (NLP) and machine learning techniques to predict 10 authors from their 100 works, achieving an 89% predictive accuracy.
 
 ## Data collection
-A total of 100 English works by 10 authors were downloaded from [Gutenberg](https://www.gutenberg.org/) using the `gutenbergr` package, as detailed in [1-gutenberg_download.R](1-gutenberg_download.R).
+A total of 100 English works by 10 authors were downloaded from [Gutenberg](https://www.gutenberg.org/) using the `gutenbergr` package, as detailed in [1-gutenberg_download.R](1-gutenberg_download.R). 10 authors are: Jane Austen, Agatha Christie, Charles Dickens, Daniel Defoe, Arthur Conan Doyle, George Eliot, Jack London, William Shakespeare, Mark Twain, and Oscar Wilde.
 
 ## Data preprocessing
 Data preprocessing was conducted using NLP and the `NLTK` package, as outlined in [2-NLP.ipynb](2-NLP.ipynb). The following steps were taken:  
@@ -235,7 +235,7 @@ data.frame(
     "Lasso",
     "Naive Bayes",
     "KNN",
-    "Random forest",
+    "Random Forest",
     "GBM",
     "XGBoost"),
   overall_accuracy = c(
