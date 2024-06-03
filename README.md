@@ -20,17 +20,21 @@ Data preprocessing was conducted using NLP and the `NLTK` package, as
 outlined in [2-NLP.ipynb](2-NLP.ipynb). The following steps were
 taken:  
 1. **Lowercasing**: Convertint all letters to lowercase, as uppercase
-and lowercase letters are typically treated the same. - Example:
-“Retailers and 10 Ice-creams” becomes “retailers and 10 ice-creams”. 2.
-**Tokenization**: Splitting text into individual words and chunks. -
-Example: “retailers and 10 ice-creams” becomes “retailers”, “and”, “10”,
-“ice-creams”. 3. **Stop Word Removal**: Removing common words such as
-“the”, “and”, “in” as they do not carry useful information. - Example:
-“retailers”, “10”, “ice-creams” remains. 4. **Regular Expressions**:
-Retaining only English letters, removing numbers and punctuation. -
-Example: “retailers” remains. 5. **Stemming and Lemmatization**:
-Reducing words to their root forms for easier analysis. - Example:
-“retailers” becomes “retail”.
+and lowercase letters are typically treated the same.  
+- Example: “Retailers and 10 Ice-creams” becomes “retailers and 10
+ice-creams”.  
+2. **Tokenization**: Splitting text into individual words and chunks.  
+- Example: “retailers and 10 ice-creams” becomes “retailers”, “and”,
+“10”, “ice-creams”.  
+3. **Stop Word Removal**: Removing common words such as “the”, “and”,
+“in” as they do not carry useful information.  
+- Example: “retailers”, “10”, “ice-creams” remains.  
+4. **Regular Expressions**: Retaining only English letters, removing
+numbers and punctuation.  
+- Example: “retailers” remains.  
+5. **Stemming and Lemmatization**: Reducing words to their root forms
+for easier analysis.  
+- Example: “retailers” becomes “retail”.
 
 ## Feature extraction
 
